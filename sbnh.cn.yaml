@@ -16,7 +16,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - { name: 'Trojan-KiwiVM', type: trojan, server: 'tencentline.com', port: 443, password: 'xianba2' }
+  - { name: 'Trojan-KiwiVM', type: trojan, server: 'x.uhwh.ga', port: 443, password: 'xianba2' }
 
 proxy-groups:
   - { name: Proxy, type: select, proxies: ['Trojan-KiwiVM'] }
